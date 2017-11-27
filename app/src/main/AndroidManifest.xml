@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="main.hari1">
+
+    <uses-sdk
+        android:targetSdkVersion="26"
+        android:minSdkVersion="14">
+    </uses-sdk>
+
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/sprout"
+        android:label="TOKOKU"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Design.Light.NoActionBar"
+        >
+
+        <activity
+            android:name=".homesplash"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".menu"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".BelanjaMain"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Jammain"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Fotomain"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".Homepage"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".form"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+    </application>
+
+</manifest>
